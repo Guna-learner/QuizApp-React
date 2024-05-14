@@ -167,6 +167,20 @@ font-weight: 600;
   padding: 1em;
        font-size: 0.6em;
     }
-
+    .total{
+        width: 50%;
+        height: 20vh;
+    }
+    .score{
+        width: 60%;
+        height: 1.5vh;
+      
+    }
+    .score .level{
+        height: 0.9vh;
+    }
+    .per{
+        margin-top: 0.6em;
+    }
  
 }
