@@ -7,7 +7,7 @@ const Score = () => {
    let per = score/10 *100
 
    function handleNav(){
-    navigate(`/`)
+    navigate(`/QuizApp-React`)
   }
 
 
