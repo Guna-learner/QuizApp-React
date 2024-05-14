@@ -10,7 +10,7 @@ function App() {
     <>
    <Router>
 <Routes>
-<Route path="/" element={<Home />} />
+<Route index path="/QuizApp" element={<Home />} />
 <Route path="/quiz/:type" element={<Quiz />} />
 <Route path="/score/:score" element={<Score />} />
 </Routes>
