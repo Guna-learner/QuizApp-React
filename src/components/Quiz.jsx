@@ -14,7 +14,7 @@ const Quiz = () => {
     const refOpt = useRef([]);
     const[submit,setSubmit]= useState(false);
     const navigate =  useNavigate();
-    const[min,setMin]=useState(0);
+    const[min,setMin]=useState(1);
     const[sec,setSec]=useState(60);
     const option= {
       A:0,
