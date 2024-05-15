@@ -94,7 +94,8 @@ align-items: center;
 .per{
     position: absolute;
     right: -15px;
-    margin-top: 0.3em;
+    margin-top: 0.6em;
+    color: rgb(84, 30, 246);
 }
 .total{
     width: 25%;
@@ -107,7 +108,7 @@ align-items: center;
     margin: 2em;
 }
 .container > p{
-    margin-top: -2em;
+    /* margin-top: -1em; */
     font-size: larger;
     font-weight: 700;
     color: rgb(31, 31, 31);
@@ -122,6 +123,10 @@ align-items: center;
 color: aliceblue;
 font-weight: 600;
     border: none;
+}
+.message{
+    margin-bottom: 0.3em;
+    color: rgb(240, 26, 26);
 }
 
 @media (max-width:764px) {

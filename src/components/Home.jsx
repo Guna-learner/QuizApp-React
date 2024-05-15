@@ -21,7 +21,7 @@ const Home = () => {
 
    }
     function handleNav(){
-        navigate(`/quiz/${type}`)
+        navigate(`/QuizApp-React/quiz/${type}`)
     }
 
   return (

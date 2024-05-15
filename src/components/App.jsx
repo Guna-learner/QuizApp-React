@@ -11,8 +11,12 @@ function App() {
    <Router>
 <Routes>
 <Route index path="/QuizApp-React" element={<Home />} />
-<Route path="/quiz/:type" element={<Quiz />} />
-<Route path="/score/:score" element={<Score />} />
+
+<Route path="/QuizApp-React" >
+<Route path="quiz/:type" element={<Quiz />} />
+<Route path="score/:score" element={<Score />} />
+</Route>
+
 </Routes>
 
 </Router>

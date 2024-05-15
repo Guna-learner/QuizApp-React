@@ -14,7 +14,7 @@ const Quiz = () => {
     const refOpt = useRef([]);
     const[submit,setSubmit]= useState(false);
     const navigate =  useNavigate();
-    const[min,setMin]=useState(3);
+    const[min,setMin]=useState(0);
     const[sec,setSec]=useState(60);
     const option= {
       A:0,
@@ -55,7 +55,7 @@ const Quiz = () => {
             setMin(prevMin => {
               const newMin = prevMin -1;
               if(newMin <= 0){
-                handleNav();
+                scoreNav()
               } 
               return newMin;
             })
@@ -74,6 +74,10 @@ const Quiz = () => {
 
     },[])
 
+
+    function scoreNav(){
+      handleNav();
+    }
   
     function handleClick(){
      if(optSelect){
@@ -114,7 +118,7 @@ const Quiz = () => {
 
 
     function handleNav(){
-      navigate(`/score/${score}`)
+      navigate(`/QuizApp-React/score/${score}`)
     }
 
   return (
