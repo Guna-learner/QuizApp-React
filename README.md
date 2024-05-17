@@ -1,4 +1,9 @@
-# React + Vite
+Simple QuizApp.
+<br/>
+Skill used -- Reactjs.
+<br/>
+Concepts learned during this development -- useNavigate,useRef.
+
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
